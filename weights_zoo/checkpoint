@@ -1,0 +1,2 @@
+model_checkpoint_path: "enn_65_checkpoint"
+all_model_checkpoint_paths: "enn_65_checkpoint"
