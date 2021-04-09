@@ -8,6 +8,9 @@ The file demo.ipynb provides a demo how to build, train, and interfere precise a
 The file "weights_zoo" includes the parameters of a trained evidential CNN classifier and can be used in the demo.
 
 The required libraries and their version:
+
 python == 3.7.10
+
 tensorflow == 2.4.1
+
 others can be the default.
