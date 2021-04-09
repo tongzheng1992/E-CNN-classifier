@@ -11,6 +11,4 @@ The required libraries and their version:
 
 python == 3.7.10
 
-tensorflow == 2.4.1
-
-others can be the default.
+tensorflow == 2.4.1.
