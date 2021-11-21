@@ -1,6 +1,3 @@
-Update on Nov. 21th, 2021
-Thanks to [paul-bd](https://github.com/paul-bd) for his/her reimplementation of Demspter-Shafer layer in the framework of Pytorch, see https://github.com/paul-bd/DempsterShaferTheory
----------------------
 # E-CNN-classifier
 This is the avaiable code for the paper ["An evidential classifier based on Dempster-Shafer theory and deep learning"](https://arxiv.org/abs/2103.13549) (arXiv:2103.13549).
 
@@ -15,3 +12,8 @@ The required libraries and their version:
 python == 3.7.10
 
 tensorflow == 2.4.1.
+
+-------------------------
+#Update on Nov. 21th, 2021
+
+Thanks to [paul-bd](https://github.com/paul-bd) for his/her reimplementation of Demspter-Shafer layer in the framework of Pytorch, see https://github.com/paul-bd/DempsterShaferTheory
