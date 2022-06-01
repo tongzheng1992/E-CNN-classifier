@@ -116,8 +116,11 @@ class DS3_Dempster(tf.keras.layers.Layer):
             combine1_2=tf.add(combine1, combine2, name=None)
             combine2_3=tf.add(combine1_2, combine3, name=None)
             combine2_3 = combine2_3 / tf.reduce_sum(combine2_3, axis = -1, keepdims=True)#后加的
-            m1=combine2_3
-            omega1=tf.expand_dims(combine2_3[:,-1], -1)
+            #m1=combine2_3
+            #omega1=tf.expand_dims(combine2_3[:,-1], -1)
+            m1=combine2_3[:,:-1]
+            omega1=omega1*omega2
+            m1=tf.concat([m1, omega1], -1)
         return m1
 
 class DS3_normalize(tf.keras.layers.Layer):
